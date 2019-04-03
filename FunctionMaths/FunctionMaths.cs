@@ -36,7 +36,7 @@ namespace FunctionMaths
 
             return sum != null
                 ? (ActionResult)new OkObjectResult($"Sum of numbers {num1} & {num2} is equals {sum}")
-                : new BadRequestObjectResult("Please pass num1 & num2 on the query string or in the request body");
+                : new BadRequestObjectResult("Unbale to do Calculation, Please pass num1 & num2 on the query string or in the request body");
         }
     }
 }
